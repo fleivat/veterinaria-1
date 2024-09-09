@@ -1,0 +1,126 @@
+body {
+    font-family: Open Sans, sans-serif;
+    background-color: #F2B3CA; /* Color de fondo claro */
+  }
+  
+  h2 {
+    margin-bottom: 30px;
+    color: #4567b7; /* Color de título azul */
+  }
+  
+
+  .testimonial {
+    background-color: #2E8C72; /* Color de fondo verde */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-info {
+    background-color: #156f7c;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-info h3 {
+    margin-top: 0;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .contact-list li {
+    margin-bottom: 10px;
+  }
+  
+  .contact-list li i {
+    margin-right: 10px;
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .contact-list li a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  .contact-list li a:hover {
+    color: #23527c;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .social-media-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-media-list li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-media-list li a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  .social-media-list li a:hover {
+    color: #23527c;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .address {
+    font-style: normal;
+    color: #666;
+    font-size: 16px;
+  }
+  
+  /* Agregamos un gradiente de fondo a la sección de contacto */
+  .contact-section {
+    background-image: linear-gradient(to bottom, #f7f7f7, #eee);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Agregamos una sombra a los botones */
+  button[type="submit"] {
+    background-color: #4567b7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  /* Color Theme Swatches in Hex */
+.Diseño-gráfico-1-hex { color: #D92546; }
+.Diseño-gráfico-2-hex { color: #D96281; }
+.Diseño-gráfico-3-hex { color: #F2B3CA; }
+.Diseño-gráfico-4-hex { color: #2E8C72; }
+.Diseño-gráfico-5-hex { color: #80BF8A; }
+
+/* Color Theme Swatches in RGBA */
+.Diseño-gráfico-1-rgba { color: rgba(216, 36, 69, 1); }
+.Diseño-gráfico-2-rgba { color: rgba(216, 97, 129, 1); }
+.Diseño-gráfico-3-rgba { color: rgba(242, 179, 202, 1); }
+.Diseño-gráfico-4-rgba { color: rgba(46, 140, 113, 1); }
+.Diseño-gráfico-5-rgba { color: rgba(128, 191, 137, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Diseño-gráfico-1-hsla { color: hsla(348, 70, 49, 1); }
+.Diseño-gráfico-2-hsla { color: hsla(343, 60, 61, 1); }
+.Diseño-gráfico-3-hsla { color: hsla(337, 71, 82, 1); }
+.Diseño-gráfico-4-hsla { color: hsla(163, 50, 36, 1); }
+.Diseño-gráfico-5-hsla { color: hsla(129, 33, 62, 1); }
+
+  
