@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinaria vet24 - Cirugías</title>
+    <link rel="icon" href="img/health.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .carousel-image {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
+        <div class="container">
+            <img src="img/health.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            <a class="navbar-brand" href="#">Veterinaria vet24</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">
+                        <i class="fas fa-home"></i> Página Principal</a></li>
+                    <li class="nav-item"><button class="nav-link btn btn-light" id="contactBtn">Contáctenos</button>
+                    </li>
+                    <li class="nav-item"><button class="btn btn-light" id="loginBtn" data-toggle="modal"
+                            data-target="#loginModal">Iniciar Sesión</button></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="info-section" id="cirugias">
+        <div class="text-container">
+            <h2>Cirugías</h2>
+            <p>Realizamos una amplia gama de procedimientos quirúrgicos con el mayor cuidado y precisión.
+                Nuestro equipo está equipado con tecnología avanzada para asegurar la seguridad y el bienestar
+                de tu mascota.</p>
+            <ul>
+                <li>Cirugías de esterilización</li>
+                <li>Cirugías de tejidos blandos</li>
+                <li>Cirugías ortopédicas</li>
+                <li>Procedimientos de emergencia</li>
+            </ul>
+            <img src="imagen_cirugia.jpg" alt="Imagen de cirugía" class="img-fluid mt-3">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <section class="contact-info" id="contacto">
+            <h3>Información de Contacto</h3>
+            <div class="contact-list">
+                <div><i class="fas fa-phone"></i> Teléfono: 555-1234</div>
+                <div><i class="fas fa-envelope"></i> Email: <a href="mailto:info@mascotasfelices.com">info@mascotasfelices.com</a></div>
+                <div>
+                    <i class="fas fa-share-alt"></i> Redes Sociales:
+                    <div class="social-media-list">
+                        <div><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></div>
+                        <div><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></div>
+                        <div><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></div>
+                    </div>
+                </div>
+                <div><i class="fas fa-map-marker-alt"></i> Dirección: Av. Principal 123, Ciudad, País</div>
+            </div>
+        </section>
+        <p>&copy; 2024 Veterinaria vet24. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1 .slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

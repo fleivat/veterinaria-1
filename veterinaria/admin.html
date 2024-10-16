@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" href="img/health.png" type="image/x-icon">
+    <title>Página de administrador</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+    <header >
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Veterinaria vet24</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="#mascotas">Mascotas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#categorias">Categorías</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#logout">Cerrar sesión</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main >
+        <section id="mascotas">
+            <h2>Mascotas</h2>
+            <button class="btn btn-primary" id="agregar-mascota">Agregar mascota</button>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Especie</th>
+                        <th>Edad</th>
+                        <th>Foto</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody id="mascotas-tbody">
+                    <!-- Aquí se mostrarán las mascotas -->
+                </tbody>
+            </table>
+        </section>
+        <section id="categorias">
+            <h2>Categorías</h2>
+            <button class="btn btn-primary" id="agregar-categoria">Agregar categoría</button>
+            <ul id="categorias-list">
+                <!-- Aquí se mostrarán las categorías -->
+            </ul>
+        </section>
+    </main>
+    <form id="agregar-mascota-form" style="display: none;">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        <label for="especie">Especie:</label>
+        <input type="text" id="especie" name="especie"><br><br>
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad"><br><br>
+        <label for="foto">Foto:</label>
+        <input type="file" id="foto" name="foto"><br><br>
+        <button type="submit">Agregar</button>
+    </form>
+    <form id="modificar-mascota-form" style="display: none;">
+        <label for="nombre-modificar">Nombre:</label>
+        <input type="text" id="nombre-modificar" name="nombre-modificar"><br><br>
+        <label for="especie-modificar">Especie:</label>
+        <input type="text" id="especie-modificar" name="especie-modificar"><br><br>
+        <label for="edad-modificar">Edad:</label>
+        <input type="number" id="edad-modificar" name="edad-modificar"><br><br>
+        <label for="foto-modificar">Foto:</label>
+        <input type="file" id="foto-modificar" name="foto-modificar"><br><br>
+        <button type="submit">Modificar</button>
+    </form>
+    <script src="js/admin.js"></script>
+</body>
+</html>

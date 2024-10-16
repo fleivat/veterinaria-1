@@ -1,0 +1,73 @@
+/* Define un esquema de colores */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #f1c40f;
+    --background-color: #f9f9f9;
+  }
+  
+  /* Utiliza tipografía */
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-image: url(../img/OPSEG70.jpg);
+    background-size: cover;
+    background-position: center;
+    
+  }
+  
+  /* Añade sombras y efectos */
+  .card {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Utiliza iconos */
+  .icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  /* Ajusta el espaciado */
+  .container {
+    padding: 20px;
+  }
+  
+  .row {
+    margin-bottom: 20px;
+  }
+  
+  /* Utiliza media queries */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+    .row {
+      margin-bottom: 10px;
+    }
+  }
+
+  /* Add this to your styles.css file */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd; /* Add a light gray border */
+    padding: 8px; /* Add some padding for better readability */
+    text-align: left; /* Align text to the left */
+}
+
+th {
+    background-color: #f0f0f0; /* Add a light gray background to the header cells */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f5f5f5; /* Add a light gray background to even rows */
+}
